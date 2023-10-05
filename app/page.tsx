@@ -30,8 +30,19 @@ const Home = async () => {
             <p className="mt-6">
               Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
             </p>
-
+            
             <Searchbar />
+            <div className="mt-6">
+              <button 
+                type="submit" 
+                className="searchbar-btn "
+              >
+                <a  target="_blank" href="https://www.amazon.com/gp/search?ie=UTF8&tag=pricewise08-20&linkCode=ur2&linkId=271073446cc9e95122e99ce3fe629b88&camp=1789&creative=9325&index=aps&keywords=all deals of the day">
+                  Check Amazon Deals
+                </a>
+              </button>
+            </div>
+            
           </div>
 
           <HeroCarousel />
