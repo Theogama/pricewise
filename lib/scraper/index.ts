@@ -65,7 +65,7 @@ export async function scrapeAmazonProduct(url: string) {
     // Construct data object with scraped information
     const data = {
       url,
-      currency: currency || '$',
+      currency: currency || 'R',
       image: imageUrls[0],
       title,
       currentPrice: Number(currentPrice) || Number(originalPrice),
